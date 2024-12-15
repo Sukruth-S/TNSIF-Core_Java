@@ -8,7 +8,7 @@ public class BankImpl implements Bank {
         if (amt > a.getBalance()) {
             System.err.println("Insufficient funds to withdraw");
         } else {
-            a.setBalance(a.getBalance() - amt);
+            a.setBalance(a.getBalance()-amt);
             System.out.println("Withdrawn " + amt + " from account: " + a.getAccNo());
         }
     }

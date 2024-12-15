@@ -7,6 +7,7 @@ public class BankAppln {
 	   Account account=new Account(987654, "Sukruth", 155000, bank);
         account.getBank().deposite(account,2000);
 	    System.out.println(account);
+	   
 	    
 	    account.getBank().withdraw(account, 7000);
 	    System.out.println(account);
