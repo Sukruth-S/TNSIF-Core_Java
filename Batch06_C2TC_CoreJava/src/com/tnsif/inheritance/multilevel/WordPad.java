@@ -4,7 +4,6 @@ public class WordPad extends NotePad{
 	private boolean isBold;
 
 	public WordPad() {
-		super();
 		this.isBold=false;
 	}
 	 
